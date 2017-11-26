@@ -54,3 +54,8 @@ function gradeAnalysis() {
 };
 // closing function
 gradeAnalysis(scores);
+
+var maxScore = Math.max(...scores); 
+console.log("The highest score was" + " " + maxScore);
+var minScore = Math.min(...scores) 
+console.log("The lowest score was" + " " + minScore);
